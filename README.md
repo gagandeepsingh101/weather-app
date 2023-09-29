@@ -21,7 +21,7 @@ This is a simple weather app built with HTML, CSS, and JavaScript that allows us
    ```bash
    git clone https://github.com/your-username/weather-app.git
 
-## Depoyment
+## Deployment
 1. For Demo of weather app click [here](https://weather-app-f0481f.netlify.app/)
 ## Technologies Used
 - HTML
