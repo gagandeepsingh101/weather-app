@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Weather Web App</title>
+  </head>
+  <body>
+
+    <!-- main app section -->
+    <section id="weather">
+
+      <!-- Input and Search Section -->
+      <div id="search-sec">
+        <input type="text" placeholder="Find current Weather"  id="input-city"/>
+        <button id="search-weather"><i class="ri-search-line"></i></button>
+      </div>
+
+      <!-- Show temp and city/place with image of weather -->
+      <div id="weather-info">
+        <img id="current-img" src="" alt="">
+        <h6 id="temp"></h6>
+        <h3 id="city"></h3>
+      </div>
+
+      <!-- shwow humidity and wind speed -->
+      <div id="wind-humidity">
+        <div id="humidity">
+          <img src="/images/humidity.png" alt="">
+          <h5><span id="humidity-text"></span><span>Humidity</span></h5>
+        </div>
+        <div id="wind">
+          <img src="/images/wind.png" alt="">
+          <h5><span id="wind-text"></span><span>Wind Speed</span></h5>
+        </div>
+      </div>
+    </section>
+    <script src="/script.js"></script>
+  </body>
+</html>
